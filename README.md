@@ -21,7 +21,6 @@
 ## Resultado
 - O custo mínimo para este problema é de 425185 é o certo, conforme mostrado o "print" da página quando postado como resultado.
 
-## Próximos passos
-- Esse algoritmo que desenvolvi não calcula o trajeto, apenas o custo global mínimo do ponto (0, 0) até o (N, N).
-- A matriz distâncias final já é uma matriz onde cada ponto (n, n) é o custo mínimo para se chegar naquele ponto, podendo ser pego facilmente qualquer custo mínimo para cada ponto. 
-- Como a matriz é muito grande, não dá para desenhar, mas seria interessante implementar também o "trajeto" percorrido. Talvez fazer com uma matriz menor para implementar esse trajeto percorrido.
+## Trajeto
+- O [segundo notebook](path_sum_four_ways_2.ipynb) é o mesmo algoritmo porém no final é feita uma visualização do trajeto de menor custo global até o último nó (que fica mais à direita e inferior), como por exemplo a figura abaixo:  
+![figura1](assets/figura1.png)
